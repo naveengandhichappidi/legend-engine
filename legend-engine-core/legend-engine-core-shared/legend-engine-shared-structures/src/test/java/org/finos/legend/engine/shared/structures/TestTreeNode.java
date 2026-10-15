@@ -25,7 +25,7 @@ public class TestTreeNode
     {
         TreeNode root = new TreeNode("Core");
         TreeNode child1 = new TreeNode("Core");
-        TreeNode child2 = new TreeNode("Pure");
+        TreeNode child2 = new TreeNode("Payments");
         TreeNode child21 = new TreeNode("Pure2");
         TreeNode child3 = new TreeNode("Lang");
         TreeNode child4 = new TreeNode("Compiler");
@@ -58,7 +58,7 @@ public class TestTreeNode
         Assert.assertEquals(
                 "Core\n" +
                         "  ├Core\n" +
-                        "  │  └Pure\n" +
+                        "  │  └Payments\n" +
                         "  │     └Pure2\n" +
                         "  ├Lang\n" +
                         "  │  ├Compiler\n" +
